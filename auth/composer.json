@@ -1,0 +1,13 @@
+{
+    "name": "scholars4scholars/search",
+    "require": {
+        "oauth-io/oauth": "0.3.2"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Jose Bethancourt",
+            "email": "jose@joseb.me"
+        }
+    ]
+}

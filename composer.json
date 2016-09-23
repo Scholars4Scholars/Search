@@ -1,0 +1,14 @@
+{
+    "name": "s4s/search",
+    "require": {
+        "oauth-io/oauth": "0.2.0",
+        "mashape/unirest-php": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Jose Bethancourt",
+            "email": "jose@joseb.me"
+        }
+    ],
+    "minimum-stability": "dev"
+}

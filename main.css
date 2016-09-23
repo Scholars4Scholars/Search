@@ -1,0 +1,49 @@
+@font-face {
+    font-family: av-ultralight;
+	src: url("../fonts/AvenirNext-UltraLight.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-regular;
+	src: url("../fonts/AvenirNext-Regular.ttf") format("opentype"); 
+}
+@font-face {
+    font-family: av-demibold;
+    src: url("../fonts/AvenirNext-DemiBold.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-ultralight-italic;
+    src: url("../fonts/AvenirNext-UltraLightItalic.ttf") format("opentype");
+}
+@font-face
+{
+    font-family : av-regular-italic;
+    src: url("../fonts/AvenirNext-Italic.ttf") format("opentype");
+}
+
+body{
+	padding: 70px;
+	background-color: #bdc3c7;
+}
+
+.navbar-fixed-top {
+	font-family: av-ultralight;
+    min-height: 60px;
+    background-color: white;
+	border-bottom: 3px solid #970909;
+}
+.dropdown-menu>li>a {
+	font-family: av-ultralight;
+	
+}
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 60px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}

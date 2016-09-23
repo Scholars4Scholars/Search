@@ -1,0 +1,101 @@
+@font-face {
+    font-family: av-ultralight;
+	src: url("../fonts/AvenirNext-UltraLight.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-regular;
+	src: url("../fonts/AvenirNext-Regular.ttf") format("opentype"); 
+}
+@font-face {
+    font-family: av-demibold;
+    src: url("../fonts/AvenirNext-DemiBold.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-ultralight-italic;
+    src: url("../fonts/AvenirNext-UltraLightItalic.ttf") format("opentype");
+}
+@font-face
+{
+    font-family: av-regular-italic;
+    src: url("../fonts/AvenirNext-Italic.ttf") format("opentype");
+}
+
+html, body{height:100%; margin:0;padding:0;-webkit-font-smoothing:antialiased;}
+body
+{
+	background-image: url("../img/coffee-bg-final.jpg");
+    background-size:cover;
+
+}
+#big-video-wrap
+{
+	opacity: .8;
+}
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.card {
+    background-color: white;
+}
+
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.center {
+  float:none;
+  margin:0 auto;
+}
+
+.top-offset {
+    margin-top: 6em;
+}
+
+.ultralight
+{
+	font-family: av-ultralight;
+	color: #ffffff;
+}
+.regular
+{
+	font-family: av-regular;
+	color: #ffffff;
+}
+.bold
+{
+	font-family: av-demibold;
+	color: #ffffff;
+}
+.ultralight-italic
+{
+	font-family: av-ultralight-italic;
+	color: #ffffff;
+}
+.form-control::-webkit-input-placeholder { color: #7f8c8d; }
+.form-control:-moz-placeholder { color: #7f8c8d; }
+.form-control::-moz-placeholder { color: #7e8b8c; }
+.form-control:-ms-input-placeholder { color: #7f8c8d; }
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
